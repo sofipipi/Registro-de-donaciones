@@ -20,6 +20,7 @@ services:
     container_name: backend
     ports:
       - "3000:3000"
+      - "51212:51212"
     volumes:
       - ./backend:/app
       - /app/node_modules
